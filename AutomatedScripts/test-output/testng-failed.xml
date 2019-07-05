@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite1]">
+  <parameter name="browser" value="chrome"/>
+  <test name="test2(failed)">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="INDIGO.indExec">
+        <methods>
+          <include name="indrun" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- INDIGO.indExec -->
+    </classes>
+  </test> <!-- test2(failed) -->
+</suite> <!-- Failed suite [suite1] -->

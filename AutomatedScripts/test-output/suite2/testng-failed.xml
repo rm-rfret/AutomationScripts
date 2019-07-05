@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [suite2]" parallel="none">
+  <test name="cleartrip(failed)" parallel="none">
+    <classes>
+      <class name="cleartrip.Runn">
+        <methods>
+          <include name="test2"/>
+          <include name="setdriver"/>
+          <include name="test1"/>
+          <include name="setie"/>
+        </methods>
+      </class> <!-- cleartrip.Runn -->
+    </classes>
+  </test> <!-- cleartrip(failed) -->
+</suite> <!-- Failed suite [suite2] -->
